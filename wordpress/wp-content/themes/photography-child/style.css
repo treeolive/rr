@@ -11,3 +11,13 @@ License URI: http://themeforest.net/licenses/regular_extended
 Text Domain: photography
 Template: photography
 */
+
+.ppb_title {
+    font-size:22px;
+  }
+
+  body
+  {
+  	word-wrap: normal;
+
+  }
