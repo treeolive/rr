@@ -6151,7 +6151,7 @@ function ppb_team_column_func($atts, $content) {
 			        
 			    if(!empty($member_linkedin))
 			    {
-			        $return_html.= '<li><a title="'.esc_attr($member->post_title).' on Linkedin" target="_blank" class="tooltip" href="'.$member_linkedin.'" '.$social_font_color.'><i class="fa fa-linkedin"></i></a></li>';
+			        $return_html.= '<li><a title="'.esc_attr($member->post_title).' website" target="_blank" class="tooltip" href="'.$member_linkedin.'" '.$social_font_color.'><i class="fa fa-external-link"></i></a></li>';
 			    }
 			    
 			    $return_html.= '</ul>';
@@ -6351,7 +6351,7 @@ function ppb_team_grid_func($atts, $content) {
 				        
 				    if(!empty($member_linkedin))
 				    {
-				        $return_html.= '<li><a title="'.esc_attr($member->post_title).' on Linkedin" target="_blank" class="tooltip" href="'.$member_linkedin.'" '.$social_font_color.'><i class="fa fa-linkedin"></i></a></li>';
+				        $return_html.= '<li><a title="'.esc_attr($member->post_title).' website" target="_blank" class="tooltip" href="'.$member_linkedin.'" '.$social_font_color.'><i class="fa fa-external-link"></i></a></li>';
 				    }
 				    
 				    $return_html.= '</ul></div></div>';
@@ -6609,7 +6609,7 @@ function ppb_team_card_func($atts, $content) {
 			        
 			    if(!empty($member_linkedin))
 			    {
-			        $return_html.= '<li><a title="'.esc_attr($member->post_title).' on Linkedin" target="_blank" class="tooltip" href="'.$member_linkedin.'" '.$social_font_color.'><i class="fa fa-linkedin"></i></a></li>';
+			        $return_html.= '<li><a title="'.esc_attr($member->post_title).' website" target="_blank" class="tooltip" href="'.$member_linkedin.'" '.$social_font_color.'><i class="fa fa-external-link"></i></a></li>';
 			    }
 			    
 			    $return_html.= '</ul>';

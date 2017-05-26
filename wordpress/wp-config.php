@@ -23,7 +23,7 @@
 define('DB_NAME', 'sub31_rrs');
 
 /** MySQL database username */
-define('DB_USER', 'rrs');
+define('DB_USER', 'sub31_rrs');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'Wat3rl00');

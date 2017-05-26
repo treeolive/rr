@@ -11,6 +11,22 @@ License URI: http://themeforest.net/licenses/regular_extended
 Text Domain: photography
 Template: photography
 */
+/*
+Custom CSS
+*/
+.sidebar_content p a {
+    text-decoration: underline;
+    color: #005689;
+}
+h2.news-heading {
+    margin: 29px 0px 27px 0px !important;
+}
+@media all and (max-width:1296px){
+	h2.ppb_title{
+		width:110% !important;
+	}
+}
+
 
 .ppb_title {
     font-size:22px;
